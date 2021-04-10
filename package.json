@@ -1,0 +1,27 @@
+{
+  "name": "email-generator",
+  "version": "1.0.0",
+  "description": "Creates random & unique email to be used in automated test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automationpi/email-generator.git"
+  },
+  "keywords": [
+    "random",
+    "email",
+    "generator",
+    "unique",
+    "email",
+    "creator"
+  ],
+  "author": "Naveen Alok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/automationpi/email-generator/issues"
+  },
+  "homepage": "https://github.com/automationpi/email-generator#readme"
+}
