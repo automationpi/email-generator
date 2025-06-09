@@ -1,0 +1,24 @@
+graph TD
+    A[Root Directory]
+    B[README.md]
+    C[index.js]
+    D[package.json (root)]
+    E[package-lock.json (root)]
+    F[example/]
+    G[example/app.js]
+    H[example/package.json]
+    I[example/package-lock.json]
+
+    A --> B
+    A --> C
+    A --> D
+    A --> E
+    A --> F
+    F --> G
+    F --> H
+    F --> I
+
+    D -->|Defines| C
+    D -->|Contains dependencies info| E
+    H -->|Defines dependencies for example| G
+    H -->|Contains dependencies info| I
