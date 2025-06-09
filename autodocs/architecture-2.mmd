@@ -1,0 +1,12 @@
+flowchart TD
+    A[User Starts Application] --> B[Application Loads index.js]
+    B --> C[Reads package.json]
+    C --> D[Loads Dependencies]
+    D --> E[Executes app.js]
+    E --> F[Performs Main Functionality]
+    F --> G[Outputs Result to User]
+    G --> H[User Receives Output]
+    B --> I[Reads README.md for Documentation]
+    I --> J[Displays Documentation to User]
+    B --> K[Reads package-lock.json for Dependency Tree]
+    K --> L[Ensures Correct Dependency Versions]
